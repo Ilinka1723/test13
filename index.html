@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title> L.T. "Ion Creangă" </title>
+	<link rel="stylesheet" href="CSS.css">
+	<script src="https://kit.fontawesome.com/2de94a85e5.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel ="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+
+<body>
+
+	<section class="header">
+	<nav>
+		<a href="index.html"><img src="images/logo.jpg"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa-solid fa-rectangle-xmark" aria-hidden="true" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">ACASĂ</a></li>
+				<li><a href="about.html">DESPRE NOI</a></li>
+				<li><a href="course.html">CURSURI</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="contact.html">CONTACTE</a></li>
+			</ul>
+		</div>
+		<!--- <div class="lang-menu">
+			<div class="selected-lang">
+				Română
+			</div>
+			<ul>
+				<li>
+					<a href="#" class="ro">Română<a/>
+				</li>
+				<li>
+					<a href="#" class="gb">English<a/>
+				</li>
+				<li>
+					<a href="#" class="ru">Русский<a/>
+				</li>
+			</ul>
+		</div> --->
+		<i class="fa-solid fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+	</nav>
+	<div class="text-box">
+		<h1>Bine ați venit în lumea cunoștințelor!</h1>
+		<p>Să nu uităm: o carte, un stilou, un copil și un profesor pot schimba lumea. – Malala Yousafzai</p>	
+		<a href="about.html" class="hero-btn">Află mai mult</a>
+	</div>
+	</section>
+	
+<hr></hr>
+
+<!----COURSE---->
+	<section class="course">
+		<h1>Cursuri</h1>
+		<p>...</p>
+		<div class="row">
+			<div class="course-col">
+				<a href="course.html"><h3>Școala Primară</h3></a>
+				<!---<i class="fa-regular fa-school"></i>--->
+				<p>O școală bună rumegă gândirea altora, nu o memorează.<br>(Vasile Ghica)</p>
+			</div>
+			<div class="course-col">
+				<a href="course.html"><h3>Gimnaziu</h3></a>
+				<!---<i class="fa-regular fa-chalkboard-user"></i>--->
+				<p>Școala cea mai bună este aceea în care vezi alături de tine sufletele care-ți sunt ca frații și surorile.<br>(Nicolae Iorga)</p>
+			</div>
+			<div class="course-col">
+				<a href="course.html"><h3>Liceu</h3></a>
+				<!---<i class="fa-regular fa-graduation-cap"></i>--->
+				<p>Liceul este locul unde te duci când parinții nu te mai pot ține, iar economia încă nu te poate primi.<br>(John Updike)</p>
+			</div>
+		</div>
+	</section>
+	
+<hr></hr>
+
+
+<div class="wrap">
+	<h2></h2>
+	<p><p>
+</div>
+
+
+<!----docs---->
+	<section class="modimg">
+		<h1>Transparență</h1>
+		<p>Decizii/Buget</p>
+		<br>
+	<!----best fit 4 img, if you need more we can display them in another row below this one--->	
+		<img id="myImg1" src="images/buget.jpg" alt="" style="width:90%; max-width:300px">
+		<img id="myImg2" src="images/buget2.jpg" alt="" style="width:90%; max-width:300px">
+		<img id="myImg3" src="images/buget.jpg" alt="" style="width:90%; max-width:300px">
+		<img id="myImg4" src="images/buget2.jpg" alt="" style="width:90%; max-width:300px">
+		<!----<img id="myImg5" src="images/buget.jpg" alt="" style="width:90%; max-width:300px">--->
+		
+		
+		<div id="myModal" class="modal">
+			<span class="close">&times;</span>
+			<img class="modal-content" id="img01">
+			<div id="caption"></div>
+		</div>
+		
+	</section>
+	
+<hr></hr>
+
+<div class="wrap2">
+	<h2></h2>
+	<p><p>
+</div>
+
+<!----PROGRAMS---->
+	<section class="facilities">
+
+		<div class="programs-section">
+			<div class="programs-content">
+				<div class="program-title">
+					<h2>Programe</h2>
+				</div>
+				<div class="crds">
+				
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/erasmus.jpg">
+						</div>
+						<div class="article">
+							<h4>Erasmus+</h4>
+							<p>Învățământul profesional tehnic în RM. Instituții din învățământul profesional tehnic. Mobilități pentru studenți și staff. Consolidarea Capacităților în domeniul Educației și Formării Profesionale. Centre de excelență profesonală Erasmus+.</p>
+						</div>
+						<div class="progra-view">
+							<a href="project1.html" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/clasa_it_.jpg">
+						</div>
+						<div class="article">
+							<h4>clasa viITorului</h4>
+							<p>Clasa Viitorului este un proiect de transformare digitală a educației, implementat în instituţiile educaţionale din Moldova. Acesta aduce un nou concept în pedagogie, oferind un spațiu de învățare deschis și inspirațional cu abordări interdisciplinare și inovative, prin utilizarea tehnologiilor digitale, ce favorizează procesul de învățare centrat pe elev.</p>
+						</div>
+						<div class="progra-view">
+							<a href="https://www.clasaviitorului.md/" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/clase.jpg">
+						</div>
+						<div class="article">
+							<h4>Title...</h4>
+							<p>Text...</p>
+						</div>
+						<div class="progra-view">
+							<a href="" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/clase.jpg">
+						</div>
+						<div class="article">
+							<h4>Title...</h4>
+							<p>Text...</p>
+						</div>
+						<div class="progra-view">
+							<a href="" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+<hr></hr>
+
+<div class="wrap3">
+	<h2></h2>
+	<p><p>
+</div>
+
+<!---PARTNERS--->
+<section class="partners">
+	<div class="container2">
+		<h2 class="mb-sm">Parteneri</h2>
+		<strong>
+			<div class="row3">
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/solar-communications-200.png" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/cbf-200.png" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/gxs-200.png" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/jpr-200.png" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="https://www.pmits.co.uk/portals/0/images/partners/talk-internet-200.png" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="https://www.pmits.co.uk/Portals/0/img/opera3_logo.png" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="https://www.pmits.co.uk/Portals/0/pegasus-logo.png" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="https://www.pmits.co.uk/Portals/0/sage business partner.jpg" />
+					</div>
+				</div>
+			</div>
+		</strong>
+	</div>
+</section>
+
+
+
+<!----Footer---->
+	<section class="ab">
+		
+		<div class="row2">
+			<div class="col">
+				<img src="images/logo.jpg" class="logo">
+				<h5>L.T. "Ion Creangă"<br> s.Coșnița r.Dubăsari</h5>
+			</div>
+			<div class="col">
+				<h3>Contacte <div class="underline"><span></span></div></h3>
+				<p class="email-id">liceul@mail.com</p>
+				<p>s.Coșnița r.Dubăsari<br>str. Păcii 45</p>
+				<p>+373 248 44 212</p>
+				<p>Luni - Vineri<br>7:00 - 15:00</p>
+			</div>
+			<div class="col">
+				<h3>Link-uri utile <div class="underline"><span></span></div></h3>
+				<ul>
+					<li><a href="index.html">ACASĂ</a></li>
+					<li></i><a href="about.html">DESPRE NOI</a></li>
+					<li></i><a href="course.html">CURSURI</a></li>
+					<li></i><a href="blog.html">BLOG</a></li>
+					<li></i><a href="contact.html">CONTACTE</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<h3>Rețele de socializare <div class="underline"><span></span></div></h3>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/ioncreanga09"><i class="fa-brands fa-facebook"></i><a/>
+					<a href="#"><i class="fa-brands fa-youtube"></i><a/>
+					<a href="#"><i class="fa-brands fa-instagram"></i><a/>
+					<a href="#"><i class="fa-brands fa-linkedin"></i><a/>
+					<a href="#"><i class="fa-brands fa-twitter"></i><a/>
+				</div>
+			</div>	
+		</div>
+		<hr></hr>
+		<p>&copy; 2023 Liceul Teoretic "Ion Creangă"</p>
+	</section>
+	
+<!----JavaScript for Toggle Menu---->	
+<script>
+	var navLinks = document.getElementById("navLinks");	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+<!----JavaScript for Pop-Up Images---->	
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+// need to add as many variables as images, so that means each img is a var
+//max 5 in a row... but they don't fit well... better keep 4 per row 
+
+//1st
+var img = document.getElementById("myImg1");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+//2nd
+var img = document.getElementById("myImg2");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+//3rd
+var img = document.getElementById("myImg3");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+//4th
+var img = document.getElementById("myImg4");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+//5th
+//var img = document.getElementById("myImg5");
+//var modalImg = document.getElementById("img01");
+//var captionText = document.getElementById("caption");
+//img.onclick = function(){
+//  modal.style.display = "block";
+//  modalImg.src = this.src;
+//    captionText.innerHTML = this.alt;
+//}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
+</body>
+</html>
